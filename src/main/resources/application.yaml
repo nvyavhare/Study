@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eshop
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: customer_db_user
+    password: CustomerPass123
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9090
+
+
