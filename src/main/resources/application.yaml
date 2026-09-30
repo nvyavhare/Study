@@ -2,9 +2,9 @@ spring:
   application:
     name: eshop
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521:xe
-    username: customer_db_user
-    password: CustomerPass123
+    url: URL
+    username: DB
+    password: Pass
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     database-platform: org.hibernate.dialect.OracleDialect
